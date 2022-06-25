@@ -20,7 +20,7 @@ while True:
     digitadas = []
     chances = 6
     print('-=' * 20)
-    print('           JOGO DA FORCA')
+    print('             JOGO DA FORCA')
     print('-=' * 20)
     secreto_temporario = ''
     for palavra_Secreta in aleatorio:
