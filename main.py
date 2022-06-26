@@ -1,4 +1,5 @@
 from random import choice
+alfabeto = list('abdcefghijklmnopqrstuvwxyz')
 secreto = ['marmore', 'artes', 'paralelepipedo', 'mistura', 'apostar']
 while True:
     n = int(
@@ -38,6 +39,9 @@ while True:
             print('ERRO, não pode digitar mais que uma letra: ')
             continue
 
+        if letra not in alfabeto:
+            print('Você não digitou uma letra')
+            continue
         if letra in digitadas:
             print('Você já informou essa letra')
             continue
