@@ -4,6 +4,9 @@ while True:
     n = int(
         input('Digite 1 se quiser editar as palavras,  2 para jogar ou 3 para sair: '))
     confirmacao = 'n'
+    if n > 3 or n < 1:
+        print('o número que vc digitou é inválido!')
+        continue
     if n == 1:
         while confirmacao == 's' or n == 1:
             n = 0
